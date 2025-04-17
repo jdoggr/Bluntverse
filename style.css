@@ -201,3 +201,67 @@ footer {
   padding: 10px;
   border-radius: 25px;
 }
+
+#rules {
+  padding: 20px;
+  font-family: 'Urbanist', sans-serif;
+  background-color: #f9f9f9;
+}
+
+#rules h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#rules p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#rules .rules-list {
+  margin-top: 10px;
+}
+
+#rules .rule {
+  margin-bottom: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#rules .rule-header {
+  background-color: #333;
+  color: white;
+  padding: 12px 16px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+#rules .rule-header:hover {
+  background-color: #444;
+}
+
+#rules .rule-content {
+  padding: 12px 20px;
+  background-color: #ececec;
+  display: none;
+  border-left: 4px solid #333;
+  border-radius: 0 0 6px 6px;
+}
+
+#rules .rule-content ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+#rules .rule-content li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
